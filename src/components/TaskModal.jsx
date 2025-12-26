@@ -39,6 +39,7 @@ const TaskModal = ({ isOpen, onClose, onSave, editTask }) => {
 
       <input
         type="date"
+        placeholder='Due Date'
         className="w-full bg-slate-800 text-white px-4 py-3 rounded-lg focus:ring-2 focus:ring-blue-500"
         value={formData.dueDate}
         onChange={(e) => setFormData({ ...formData, dueDate: e.target.value })}
