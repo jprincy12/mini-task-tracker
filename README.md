@@ -30,7 +30,7 @@ Clone the repository:
 - code: git clone https://github.com/jprincy12/task-tracker.git
 ### Navigate to the directory:
 - code: cd task-tracker
-Install dependencies: npm install
+- Install dependencies: npm install
 ### Start the development server:
 code: npm run dev
 
